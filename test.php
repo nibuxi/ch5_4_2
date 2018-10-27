@@ -24,5 +24,6 @@ function test2(idive $animal){
 }
 header("Content-Type:text/html;charset=utf-8");
 $eagle=new Eagle();test1($eagle);
-$duck=new Duck();test2($duck);
+$duck=new Duck();
+test2($duck);
 ?>
